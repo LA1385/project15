@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <title>BOOSTRAP CONTAINERS IN MY WEBPAGE</title>
+        <style>
+            body{background-color: black; color: white; font-family: Arial, Helvetica, sans-serif;}
+
+            a:hover{color: red;}
+            
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>EXPLORATION ON PLANET</h1>
+        </main>
+       <div class="container">
+        <h2>DEFINITION OF PLANET</h2>
+        <p>A planet is a celestial body that (a) is in orbit around the Sun, (b) has sufficient mass for its self-gravity to
+        overcome rigid body forces so that it assumes a hydrostatic equilibrium (nearly round) shape, and (c) has cleared the
+        neighborhood around its orbit.</p>
+       </div>
+
+       <div class="container">
+        <h2>FACTS ABOUT ALL THIS PLANET</h2>
+        <p>There are incredible things about all this planet that you need to know. Here they are presented to you in a boostrap format.</p>
+       </div>
+
+    <div class="container bg-warning my-5 text-white">
+        <h2>Mercury facts</h2>
+        <p>Mercury is the smallest planet in our solar system, and the nearest to the Sun.</p>
+        <img src="i1.jpeg" alt="image not found" height="150px">
+    </div>
+
+    <div class="container bg-success my-5 text-white">
+        <h2>Venus facts</h2>
+        <p>Venus is the second planet from the Sun, and Earth's closest planetary neighbor.</p>
+        <img src="i2.jpg" alt="image not found" height="150px">
+    </div>
+
+    <div class="container bg-primary my-5 text-white">
+        <h2>Earth Facts</h2>
+        <p>Earth – our home planet – is the third planet from the Sun, and the fifth largest planet.</p>
+        <img src="i3.jpg" alt="image not found" height="150px">
+    </div>
+
+    <div class="container bg-secondary my-5 text-white">
+        <h2>Mars Facts</h2>
+        <p>Mars – the fourth planet from the Sun – is a dusty, cold, desert world with a very thin atmosphere.</p>
+        <img src="i4.jpg" alt="image not found" height="150px">
+    </div>
+
+    <div class="container bg-danger my-5 text-white">
+        <h2>Jupiter Facts</h2>
+        <p>Jupiter is the largest planet in our solar system – if it were a hollow shell, 1,000 Earths could fit inside. it is an outer planet.</p>
+        <img src="i5.jpg" alt="image not found" height="150px">
+    </div>
+    <footer style="text-align: center;">
+        <p>For more info:<a href="https://science.nasa.gov/solar-system/planets/">visit website</a></p>
+    </footer>
+    </body>
+</html>
